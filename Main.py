@@ -16,4 +16,10 @@ def make_click_through(window):
     region = cairo.Region()          
     window.input_shape_combine_region(region)
 make_click_through(window)
+
+# renders the guy // STILL NEEDS WORK
+image = Gtk.Image()
+image.set_from_file("pal.png")
+image.show()
+
 Gtk.main()
